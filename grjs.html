@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+    <style>
+        .bg-light {
+            background-color: none !important;
+        }
+
+        .navbar-brand .logo {
+            width: 60px;
+            height: 50px;
+            background: url(../image/logo.jpg) no-repeat center / contain;
+            font-size: 0;
+            bottom: 0;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        /* .bg-ligh {
+  background-color: black !important;
+} */
+
+        .navbar-nav {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar.scrolled {
+            /* background-color: #26282c; */
+            height: 60px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .navbar.scrolled .nav-item {
+            padding-top: 0;
+        }
+
+        .navbar {
+            height: 70px;
+            transition: 0.5s;
+            /** 卷曲动画 */
+        }
+
+        .navbar-brand {
+            transition: 0.5s;
+        }
+
+        .navbar-nav .nav-item {
+            padding-top: 10px;
+            margin-left: 20px;
+        }
+
+        .navbar-nav .nav-item a {
+            color: #95acc8;
+        }
+
+        .navbar-nav .nav-item a:hover {
+            color: #ff9800;
+        }
+
+        .navbar-nav .nav-item:first-child a {
+            color: #f2b535;
+        }
+
+        .navbar-nav .nav-item:nth-child(4) a {
+            background-image: linear-gradient(to right, #cddc39, #ff9800 25%, #cddc39 50%, #ff9800 75%, #cddc39);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .navbar-nav .nav-item:nth-child(4) a::before {
+            content: ' ';
+            width: 13px;
+            height: 15px;
+            display: inline-block;
+            /* background-image: url(../assets/images/fire.png); */
+            background-size: 100%;
+            position: relative;
+            right: 0;
+        }
+
+        .box img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-ligh logo2">
+        <div class="container">
+            <!-- <a class="navbar-brand buju" href="#">
+                <h1 class="logo">AlloyTeam</h1>
+                <span>←是头像</span>
+            </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <h1><a class="nav-link" href="index.html">点击返回首页</a></h1>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="box">
+        <img src="image/grjs.png" alt="">
+    </div>
+</body>
+
+</html>
