@@ -1,0 +1,111 @@
+@media screen and (max-width:992px) {
+    .carousel-item {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-collapse {
+        border-top: none;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        position: absolute;
+        background: #26282c;
+        text-align: center;
+    }
+
+    .tuandui {
+        text-align: center;
+        /* background-color: aquamarine; */
+    }
+
+    .lll div {
+        /* margin-left: 1px; */
+    }
+
+    .carousel-item .hire-info .hire-name,
+    .carousel-item .item-info .title-name,
+    .carousel-item .hire-info .hire-title,
+    .carousel-item.active .title-desc {
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .tx {
+        display: none;
+    }
+
+    .td2 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .carousel-item {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hid {
+        display: none;
+    }
+
+    .carousel-item .hire-info .hire-name {
+        bottom: 60px;
+        right: 0;
+        width: 100%;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .carousel-item .item-info .title-name {
+        top: 100px;
+        right: 0;
+        width: 100%;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .container .item-info .special {
+        top: 100px;
+        right: 0;
+        width: 100%;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .carousel-item {
+        height: 250px;
+    }
+
+    .carousel-item .item-info {
+        padding-top: 80px;
+    }
+
+    .carousel-item .item-info .title-name {
+        font-size: 35px;
+    }
+
+    .carousel-item .item-info .title-desc {
+        font-size: 20px;
+    }
+
+    .tx {
+        display: none;
+    }
+
+    .tuandui {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        background-color: black;
+        text-align: center;
+    }
+
+    .lll .tx:nth-child(2) {
+        margin-top: 10px;
+    }
+}
