@@ -400,12 +400,13 @@ ul.style li {
         margin-top: 70px !important;
         background-color: rgba(110, 109, 109, 0.1);
     }
-    .rob{
+    /* .rob{
         height: 350px;
-    }
+    } */
     .eee{
         overflow: hidden;
         text-overflow: ellipsis;
+        height: 350px !important;
     }
     .fiex-righr img {
         width: 100px !important;
@@ -418,6 +419,7 @@ ul.style li {
 
     .footer {
         text-align: center;
+        display: none;
     }
 
     .tx,
@@ -434,7 +436,9 @@ ul.style li {
         height: 150px;
         object-fit: cover;
     }
-
+    .zjj{
+        display: none;
+    }
     .header {
         height: 300px;
     }
