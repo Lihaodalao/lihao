@@ -43,11 +43,13 @@ body {
 .bg-light {
     background-color: none !important;
 }
-.container{
+
+.container {
     /* background-color: rgba(255, 255, 255, 1); */
     /* opacity: 0.7; */
     overflow: hidden;
 }
+
 .navbar-brand .logo {
     width: 60px;
     height: 50px;
@@ -164,11 +166,19 @@ body {
         background: rgba(73, 73, 73, 0.9);
         text-align: center;
     }
-    .fiex-righr video{
+
+    .fiex-righr video {
         width: 250px !important;
     }
+
     .ttp p {
         font-size: 16px !important;
+    }
+    .tx{
+        display: none;
+    }
+    .tuandui{
+        display: none;
     }
 }
 
@@ -371,9 +381,20 @@ ul.style li {
 }
 
 @media screen and (max-width:768px) {
-    .fiex-righr img{
+    .card-header:first-child {
+        font-size: 20px;
+    }
+
+    .bor,
+    .rob {
+        margin-top: 70px !important;
+        background-color: rgba(110, 109, 109, 0.1);
+    }
+
+    .fiex-righr img {
         width: 100px !important;
     }
+
     .ttp {
         margin: 0 auto;
         text-align: center;
@@ -387,9 +408,11 @@ ul.style li {
     .tuandui {
         display: none;
     }
-    .fiex-righr video{
+
+    .fiex-righr video {
         width: 100px !important;
     }
+
     .ttp img {
         width: 50%;
         height: 150px;
@@ -397,26 +420,35 @@ ul.style li {
     }
 
     .header {
-        height: 400px;
+        height: 300px;
     }
 
     .t-p {
-        margin-top: 50px !important;
+        margin-top: 10px !important;
     }
 
     .kkk {
         margin-bottom: 30px;
+    }
+
+    body {
+        background-image: url("../image/bj.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
 .t-p {
     margin-top: 100px
 }
-.fiex-righr{
+
+.fiex-righr {
     position: fixed;
     right: 0;
     top: 50%;
 }
-.fiex-righr video{
+
+.fiex-righr video {
     width: 350px;
 }
