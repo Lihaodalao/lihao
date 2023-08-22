@@ -285,7 +285,10 @@ dd {
 .io h2 {
     line-height: 2em;
 }
-
+.text{
+    padding-top: 5px;
+    padding-left: 10px;
+}
 .zjj {
     letter-spacing: .2em;
     line-height: 2rem;
@@ -307,7 +310,9 @@ dd {
 .ydd2{
     width: 66.6666666667%;
 } */
-
+.ttp{
+    text-align: center;
+}
 .ttp img {
     width: 70px;
     height: 70px;
@@ -331,8 +336,7 @@ dd {
 .rob {
     transition: all .5s;
     overflow: hidden;
-     box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.5);
-    top: -6px;
+    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.5);
 }
 
 .bor:hover,
