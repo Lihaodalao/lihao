@@ -314,8 +314,8 @@ dd {
     text-align: center;
 }
 .ttp img {
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    /* height: 70px; */
     object-fit: cover;
 }
 
@@ -350,9 +350,12 @@ dd {
     overflow: hidden;
     transition: all 0.3s;
 }
-
+.yh{
+    margin: 0 auto;
+    text-align: center;
+}
 .bor:hover img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 ol,
@@ -396,7 +399,13 @@ ul.style li {
         margin-top: 70px !important;
         background-color: rgba(110, 109, 109, 0.1);
     }
-
+    .rob{
+        height: 350px;
+    }
+    .eee{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     .fiex-righr img {
         width: 100px !important;
     }
