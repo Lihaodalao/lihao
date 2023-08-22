@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.bj {
+    width: 100%;
+    height: 100%;
+    background: url(images/f1_1.jpg)no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+
+.cloud img {
+    position: absolute;
+    left: 50%;
+}
+
+.cloud img:nth-child(1) {
+    position: absolute;
+    top: 40px;
+    animation: cloud 2s linear infinite alternate;
+}
+
+.cloud img:nth-child(2) {
+    position: absolute;
+    top: 200px;
+    margin-left: -560px;
+    animation:cloud 2s linear .3s infinite alternate;
+}
+
+.cloud img:nth-child(3) {
+    top: 100px;
+    /* margin-left: 400px; */
+    margin-left: 300px;
+    animation:cloud 2.5s linear .1s infinite alternate;
+}
+
+.balloon {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -390px;
+    animation: rqq 1.5s infinite alternate;
+}
+
+.cjl {
+    position: absolute;
+    left: 50%;
+    margin-left: 180px;
+    top: 15%;
+}
+
+.wz {
+    /* position: absolute;
+    bottom:100px;
+    left: 30%; */
+}
+
+.djy{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: z 1s ease forwards; 
+}
+.wz img {
+    position: absolute;
+    left: 50%;
+    bottom: 82px;
+    width: 99px;
+}
+
+.wz img:nth-child(1) {
+    margin-left: -400px;
+    animation:qiqiu 1s .1s infinite alternate;
+}
+
+
+.wz img:nth-child(2) {
+    margin-left: -200px;
+    animation:qiqiu 1s .3s infinite alternate;
+}
+
+.wz img:nth-child(3) {
+    margin-left: 20px;
+    animation:qiqiu 1s .4s infinite alternate;
+}
+
+.wz img:nth-child(4) {
+    margin-left: 250px;
+    animation:qiqiu 1s .5s infinite alternate;
+}
+
+@keyframes cloud {
+    0% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(50px);
+    }
+}
+
+@keyframes qiqiu{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}
+@keyframes rqq{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+@keyframes z{
+    0%{
+        transform: translate(-50%,-50%)scale(1);
+    }
+    25%{
+        transform: translate(-50%,-50%)scale(0);
+    }
+    50%{
+        transform: translate(-50%,-50%)scale(1);
+    }
+    75%{
+        transform: translate(-50%,-50%)scale(0.7);
+    }
+}

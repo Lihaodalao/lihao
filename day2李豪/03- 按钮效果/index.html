@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 330px;
+            height: 120px;
+            line-height: 120px;
+            background-image: url(sprites.png);
+        }
+        .box:hover{
+            animation:wuhu 1s steps(26) infinite;
+        }
+        @keyframes wuhu{
+            to{
+                background-position:-8580px 0 ;
+            }
+        }
+        /* .box{
+            position: relative;
+        } */
+        .box p{
+            text-align: center;
+            font-weight: 600;
+            font-size: 25px;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>点击解锁</p>
+    </div>
+</body>
+</html>

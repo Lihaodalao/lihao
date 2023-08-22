@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .box {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 1110px;
+            height: 247px;
+            /* background-color: aqua; */
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box li {
+            width: 350px;
+            height: 247px;
+            background-color: antiquewhite;
+            position: relative;
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            transition: all .5s;
+            vertical-align: middle;
+        }
+
+        .box2 {
+            position: absolute;
+            padding: 20px 30px;
+            transform: translateY(-120px);
+            color: white;
+            transition: all .5s;
+        }
+
+        .box ul li:hover img {
+            transform: scale(1.2);
+        }
+        .box ul li:hover .box2{
+            transform: translateY(-180px);
+            background-image: linear-gradient( transparent, rgba(0, 0, 0, .5));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/product.jpeg" alt="">
+                    <div class="box2">
+                        <h4 style="font-size: 14px;font-weight: 400;">产品</h4>
+                        <h5 style="font-size: 18px;">OceanStor Pacific 海量存储斩获2021 Interop金奖 </h5>
+                        <p style="margin-top: 50px;">了解更多
+                            <span class="iconfont icon-arrow-right"
+                                style="color: red;font-size: 16px;vertical-align: middle;"></span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/huawei1.jpeg" alt="">
+                    <div class="box2">
+                        <h4 style="font-size: 14px;font-weight: 400;">产品</h4>
+                        <h5 style="font-size: 18px;">OceanStor Pacific 海量存储斩获2021 Interop金奖 </h5>
+                        <p style="margin-top: 50px;">了解更多
+                            <span class="iconfont icon-arrow-right"
+                                style="color: red;font-size: 16px;vertical-align: middle;"></span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/huawei2.jpeg" alt="">
+                    <div class="box2">
+                        <h4 style="font-size: 14px;font-weight: 400;">产品</h4>
+                        <h5 style="font-size: 18px;">OceanStor Pacific 海量存储斩获2021 Interop金奖 </h5>
+                        <p style="margin-top: 50px;">了解更多
+                            <span class="iconfont icon-arrow-right"
+                                style="color: red;font-size: 16px;vertical-align: middle;"></span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

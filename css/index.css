@@ -1,0 +1,422 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    color: #494d55;
+    /* background-image: url("../image/bj.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+img {
+    vertical-align: bottom;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #494d55;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    /* background-color: aqua !important; */
+}
+
+.bg-light {
+    background-color: none !important;
+}
+.container{
+    /* background-color: rgba(255, 255, 255, 1); */
+    /* opacity: 0.7; */
+    overflow: hidden;
+}
+.navbar-brand .logo {
+    width: 60px;
+    height: 50px;
+    background: url(../image/logo.jpg) no-repeat center / contain;
+    font-size: 0;
+    bottom: 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* .bg-ligh {
+  background-color: black !important;
+} */
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar.scrolled {
+    /* background-color: #26282c; */
+    height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar.scrolled .nav-item {
+    padding-top: 0;
+}
+
+.navbar {
+    height: 70px;
+    transition: 0.5s;
+    /** 卷曲动画 */
+}
+
+.navbar-brand {
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item a {
+    color: #95acc8;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #ff9800;
+}
+
+.navbar-nav .nav-item:first-child a {
+    color: #f2b535;
+}
+
+.navbar-nav .nav-item:nth-child(4) a {
+    background-image: linear-gradient(to right, #cddc39, #ff9800 25%, #cddc39 50%, #ff9800 75%, #cddc39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav .nav-item:nth-child(4) a::before {
+    content: ' ';
+    width: 13px;
+    height: 15px;
+    display: inline-block;
+    /* background-image: url(../assets/images/fire.png); */
+    background-size: 100%;
+    position: relative;
+    right: 0;
+}
+
+.logo2 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    height: 500px;
+    padding: 15em 0em;
+    position: relative;
+    padding: 5em 0em;
+    text-align: center;
+    background: #2a2f27 url(../image/banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin-top: 100px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.card-header:first-child {
+    font-size: 35px;
+}
+
+.card-text {
+    /* color: white !important; */
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        border-top: none;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        position: absolute;
+        background: rgba(73, 73, 73, 0.9);
+        text-align: center;
+    }
+    .fiex-righr video{
+        width: 250px !important;
+    }
+    .ttp p {
+        font-size: 16px !important;
+    }
+}
+
+/* .nr {
+    background-color: #f8f8f8;
+} */
+
+/* .box {
+    background-color: rgba(245, 245, 245, 0.3);
+} */
+
+.box2 {
+    background-color: rgba(235, 232, 232, 0.3);
+    margin-bottom: 30px;
+}
+
+.card-text {
+    color: black;
+}
+
+.kl {
+    /* height: 780px; */
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #494d55;
+}
+
+.td {
+    margin-top: 20PX;
+    font-size: 16px;
+}
+
+.td2 {
+    margin-top: 40px;
+}
+
+.tx dl a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.tx dl dt a {
+    color: white;
+}
+
+.tx dl dd:hover a {
+    color: #f2b535;
+    text-decoration: underline;
+}
+
+.bor {
+    /* border: 1px solid rgba(218, 212, 212, 0.5); */
+}
+
+dd {
+    margin-bottom: 0 !important;
+}
+
+.xt {
+    padding: 0 2px;
+    text-align: center;
+    padding-left: 0 !important;
+}
+
+.xt img {
+    width: 120px;
+    height: 120px;
+}
+
+.xt p {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.lll {
+    margin-top: 20px !important;
+}
+
+.buju {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buju span {
+    font-size: 14px;
+    color: white;
+}
+
+.io .title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    margin-bottom: 50px;
+}
+
+.io h2 {
+    line-height: 2em;
+}
+
+.zjj {
+    letter-spacing: .2em;
+    line-height: 2rem;
+    text-indent: 2em;
+}
+
+.io .title small {
+    display: block;
+    font-size: 16px;
+    line-height: 2em;
+    color: #919191;
+    font-weight: 500;
+}
+
+/* .ydd {
+    width: 33.3333333333%;
+}
+
+.ydd2{
+    width: 66.6666666667%;
+} */
+
+.ttp img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.kl {
+    margin-bottom: 50px;
+}
+
+.ttp p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.ttp a:hover {
+    color: #f2b535;
+}
+
+.bor,
+.rob {
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.bor:hover,
+.rob:hover {
+    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.5);
+    top: -6px;
+    transform: translateY(-5px);
+}
+
+.bor img {
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.bor:hover img {
+    transform: scale(1.2);
+}
+
+ol,
+ul {
+    padding-left: 0 !important;
+}
+
+.full img {
+    width: 100%;
+}
+
+#sidebar h2 {
+    display: block;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.3);
+    /* font-size: 14px; */
+}
+
+ul.style li {
+    margin: 0;
+    padding: 32px 0px 20px 0em;
+    border-top: 1px solid #eeeeee;
+    background-color: rgba(194, 182, 182, 0.1);
+}
+
+.hh5 {
+    color: black;
+}
+
+.card-body a:hover {
+    color: #ff9800;
+}
+
+@media screen and (max-width:768px) {
+    .fiex-righr img{
+        width: 100px !important;
+    }
+    .ttp {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .tx,
+    .tuandui {
+        display: none;
+    }
+    .fiex-righr video{
+        width: 100px !important;
+    }
+    .ttp img {
+        width: 50%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .header {
+        height: 400px;
+    }
+
+    .t-p {
+        margin-top: 50px !important;
+    }
+
+    .kkk {
+        margin-bottom: 30px;
+    }
+}
+
+.t-p {
+    margin-top: 100px
+}
+.fiex-righr{
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+.fiex-righr video{
+    width: 350px;
+}
