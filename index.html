@@ -17,7 +17,7 @@
             <div class="container">
                 <a class="navbar-brand buju" href="#">
                     <h1 class="logo">AlloyTeam</h1>
-                    <span>←是头像</span>
+                    <!-- <span>←是头像</span> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="grjs.html">个人介绍(这个能点)</a>
+                            <a class="nav-link" href="grjs.html">个人介绍</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#jcb">基础班</a>
@@ -37,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="">回到顶部</a>
                         </li>
+                        <li class="nav-item" id="wuhu">
+                            <a class="nav-link" href="#nbpl" onclick="playVideo()" style="color: chocolate;">点这里，好东西</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +49,7 @@
                 前端115期pc端+移动端总结
             </div>
             <div class="card-body">
-                <h5 class="card-title">这是一个博客？！</h5>
+                <!-- <h5 class="card-title">这是一个博客？！</h5> -->
                 <p class="card-text" style="color: white;">山无陵，江水为竭。冬雷震震，夏雨雪。天地合，乃敢与君绝。____佚名《上邪》</p>
                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
@@ -127,7 +130,6 @@
             </div>
         </div>
     </div>
-
     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -292,6 +294,7 @@
             </div>
         </div>
     </div>
+    </div>
     <section class="footer">
         <div class="container" style="background-color:rgb(73, 77, 85) !important;">
             <div class="row">
@@ -336,12 +339,38 @@
                 </div>
             </div>
         </div>
+        <video muted controls loop class="dw">
+            <source src="你被骗了 原版高清无水印 - 1.1624983647445.mp4(Av546403908,P1).mp4" type="video/mp4">
+        </video>
         <div class="fiex-righr">
             <video muted controls autoplay loop>
                 <source src="【真·鸡你太美】炸裂鬼畜蔡徐坤打篮球，镇坤之宝。 - 1.真鸡你太美(Av49739314,P1).mp4" type="video/mp4">
             </video>
         </div>
+        <a class="nav-link1 marquee" href="#nbpl" onclick="playVideo()" style="color: chocolate;">
+            <span class="marquee">点这里，好东西</span>
+        </a>
+
     </section>
+    <script>
+        function playVideo() {
+            var video = document.querySelector(".dw");
+            video.style.display = "block";
+            video.volume = 0.1;
+            video.muted = false;
+            video.play();
+
+            var intervalId = setInterval(function () {
+                var closeVideo = confirm("是否关闭视频？");
+                if (closeVideo) {
+                    clearInterval(intervalId);
+                    video.pause();
+                    video.style.display = "none";
+                }
+            }, 3000);
+        }
+
+    </script>
 </body>
 
 </html>
